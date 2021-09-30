@@ -128,12 +128,14 @@ article + button:hover {
 }
 
 footer {
-  margin-top: 2rem;
   position: fixed;
   bottom: 0;
 }
 
 @media screen and (max-width: 550px) {
+  main {
+    margin-bottom: 2rem;
+  }
   body {
     padding-left: 10%;
     padding-top: 3rem;
